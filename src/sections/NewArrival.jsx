@@ -155,7 +155,9 @@ const NewArrival = () => {
                 scrollTrigger: {
                     trigger: element,
                     start: "top top",
-                    end: "bottom+=100% top-=100%",
+                    // end: "bottom+=100% top-=100%",
+                    end: "bottom+=100%",
+
                     scroller: ".App", // locomotive element
                     scrub: true,
                     pin: true,
